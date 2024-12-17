@@ -1,13 +1,13 @@
 import React from "react";
 import "./footer.css";
-import logo from "../../assets/Images/footerlogo.png";
-
+import Logo from "../../assets/Images/footerlogo.png";
 import { AiFillFacebook } from "react-icons/ai";
 import { TiSocialInstagram } from "react-icons/ti";
 import { AiFillYoutube } from "react-icons/ai";
+
 const Footer = () => {
   return (
-    <div className="footer_top">
+    <div className="footer-top">
       <div className="container">
         <div className="footer-bottom-content clearfix">
           <div className="row">
@@ -15,7 +15,7 @@ const Footer = () => {
               <div className="logo-footer">
                 <a className="navbar-brand" href="/">
                   {" "}
-                  <img src={logo} alt="" />
+                  <img src={Logo} alt="" />
                 </a>
               </div>
 

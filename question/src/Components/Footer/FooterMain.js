@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assests/Images/footerlogo.png";
-
-import "./footer.css";
+import Logo from "../../Source/img/evangadi-logo-home.png";
+// import "./Footer.css";
 
 function FooterMain() {
   return (
@@ -14,9 +13,9 @@ function FooterMain() {
               <div className="row">
                 <div className="col-lg-4 col-md-4">
                   <div className="logo-footer">
-                    <Link className="navbar-brand" to="/">
-                      <img src={logo} alt="" />
-                    </Link>
+                    <a className="navbar-brand" href="/">
+                      <img src={Logo} alt="" />
+                    </a>
                   </div>
 
                   <ul className="footer-social-list list-social list-inline">
@@ -41,13 +40,13 @@ function FooterMain() {
                   <h5>Useful Link</h5>
                   <ul className="list-menu">
                     <li>
-                      <Link to="/explained">How it works </Link>
+                      <a href="/explained">How it works </a>
                     </li>
                     <li>
-                      <Link to="/legal/terms/">Terms of Service</Link>
+                      <a href="/legal/terms/">Terms of Service</a>
                     </li>
                     <li>
-                      <Link href="/legal/privacy/">Privacy policy</Link>
+                      <a href="/legal/privacy/">Privacy policy</a>
                     </li>
                   </ul>
                 </div>
@@ -56,13 +55,13 @@ function FooterMain() {
                   <ul className="list-menu contact-list">
                     <li>Evangadi Networks</li>
                     <li>
-                      <Link
-                        to="/cdn-cgi/l/email-protection"
+                      <a
+                        href="/cdn-cgi/l/email-protection"
                         className="__cf_email__"
                         data-cfemail="8bf8fefbfbe4f9ffcbeefdeae5eceaefe2a5e8e4e6"
                       >
                         [email&#160;protected]
-                      </Link>
+                      </a>
                     </li>
                     <li>+1-202-386-2702</li>
                   </ul>

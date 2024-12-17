@@ -1,10 +1,3 @@
-/*----------------------------------------
-Navigation
-----------------------------------------*/
-
-.navbar-header {
-  z-index: 999;
-}
 .navbar-brand {
   padding: 0;
   height: auto;
@@ -26,7 +19,6 @@ Navigation
   position: fixed;
   z-index: 1000;
   top: 0;
-
   box-shadow: 0 2px 4px rgba(81, 107, 152, 0.16);
   width: 100%;
   background: #fff;
@@ -45,13 +37,9 @@ Navigation
 .navbar-header .navbar-nav li a {
   color: #3b455a;
   font-size: 15px;
-  padding: 15px 12px;
+  padding: 15px 12px !important;
   font-weight: 500;
   line-height: 50px;
-}
-
-.navbar-header .navbar-nav li {
-  margin: 0 70px;
 }
 
 .navbar-header .navbar-nav li a:hover,
@@ -75,7 +63,7 @@ Navigation
   font-weight: 600;
   font-style: normal;
   text-align: center;
-  width: 200px;
+  width: 150px;
 }
 .navbar-header .navbar-nav li a.btn-blue:hover,
 .navbar-header .navbar-nav li a.btn-blue:active:hover,
@@ -86,6 +74,12 @@ Navigation
   background-color: #fe8402;
   border-color: #fe8402;
 }
+
+.navbar-nav {
+  display: flex;
+  margin-left: auto;
+}
+
 @media (min-width: 720px) {
   .navbar-brand img {
     width: 200px;
